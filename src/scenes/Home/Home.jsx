@@ -11,13 +11,13 @@ const Home = () => {
     "https://panel.adak.shop/assets/img/landing/2911_1722706561711_banner%20campaign.jpg",
   ];
   return (
-    <div className="m-auto -z-50 ">
+    <div className="m-auto  ">
       <div className="md:mt-[152px] mt-[165px]">
         <MainC slides={slides} />
       </div>
-      <div className="lg:w-4/5 w-full mx-auto">
-        <div className=" mt-7 rounded-2xl p-4 mx-2 md:mx-11 bg-blue-900 flex justify-between">
-          <div className="overflow-x-hidden w-1/2 md:w-4/5">
+      <div className="lg:w-4/5 w-full mx-auto ">
+        <div className=" mt-7 rounded-2xl p-4 mx-2 md:mx-11 bg-blue-900 flex justify-between ">
+          <div className="overflow-x-hidden w-1/2 md:w-4/5 z-[0]">
             <ItemC styleA={'autoPlay'}>
               <Item />
               <Item />

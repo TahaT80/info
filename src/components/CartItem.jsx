@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 import Timer from "./Timer";
 
 const CartItem = () => {
-    const targetDate = new Date('2024-22-12T23:59:59');
+  const targetDate = new Date("2024-22-12T23:59:59");
   return (
     <div
       dir="rtl"
@@ -20,7 +20,7 @@ const CartItem = () => {
       </div>
       <div className="flex justify-between items-center w-full">
         <div>
-          <p className="text-red-800">تنها یک عدد در انبار باقی مانده</p>
+          <p className="text-red-500 font-semibold">تنها یک عدد در انبار باقی مانده</p>
         </div>
         <div className="flex items-center justify-start gap-1">
           4.6
@@ -55,8 +55,8 @@ const CartItem = () => {
       </div>
 
       <div className="flex justify-between items-center w-full">
-        <div className="bg-red-500 p-1 rounded-l-full text-white px-3">
-          <p>500.000-</p>{" "}
+        <div className="bg-red-500  p-1 rounded-l-full text-white px-3">
+          <p>500.000-</p>
         </div>
         <del>20.500.000</del>
       </div>
@@ -64,12 +64,10 @@ const CartItem = () => {
       <div className="text-end w-full">7042563 تومان</div>
       <div className="flex justify-between items-center w-full">
         <div>
-          {" "}
           <div className=" ">
-            <Timer targetDate={targetDate} />
-          </div>{" "}
+            <Timer time={"2024-09-30T23:59:00"} />
+          </div>
         </div>
-        <div>تا پایان تخفیف:</div>
       </div>
     </div>
   );

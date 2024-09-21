@@ -28,7 +28,7 @@ const ItemC = ({ children, styleA }) => {
     },
   };
   return (
-    <div className="relative">
+    <div className="relative ">
       <Carousel
         responsive={responsive}
         infinite
