@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'iran-sans';
+  src: url('../public/font/Iranian\ Sans.ttf');
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
